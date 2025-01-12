@@ -1,0 +1,125 @@
+body
+{
+  background-color: ivory;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a 
+{
+  text-decoration:none;
+}
+
+h3
+{
+  text-align: center;
+}
+#navbar 
+{
+  position: relative;
+  display: flex;
+  justify-content: space-around; 
+  
+  width: 100%;
+  background-color: #eaeaea;
+  color: white;
+  padding:1em;
+  top: 0;
+    
+
+}
+.photo{
+  height:135px;
+  width:135px;
+  border-radius:100px;
+  margin: 10%;
+}
+
+main
+{
+  
+
+  width: 100%;
+    top:3em;
+
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+
+
+
+}
+#apropos
+{
+  width: 80%;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between; 
+  background-color: beige;
+
+}
+#projets
+{
+  width: 80%;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.projos
+{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  background-color: white;
+  
+
+  
+}
+.projo
+{
+  border: solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+
+
+#competences
+{
+  width: 80%;
+  background-color: floralwhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skills
+{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  background-color: white;
+  
+  
+}
+.chart
+{
+  border: solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: beige;
+  width: 40%;
+
+}
+
+
+#piedpage
+{
+  width: 80%;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+
+}

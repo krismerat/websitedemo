@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Manipulation caracteres</title>
+
+
+</head>
+<body>
+
+<h1>Manipulation de caracteres</h1>
+<p>
+<label >Entrez une chaine de caracteres:</label>
+
+<input type="text" id="name" name="name"/>
+
+
+<button onclick="longueur(); souschaine();">Soumettre</button>
+</p>
+<p id = "chaine"> </p>
+<p id = "schaine"> </p>
+
+<script>
+   function longueur()
+   {
+     const s = document.getElementById("name").value;
+	 const sl = s.length;
+	 document.getElementById("chaine").innerHTML = " Le nombre de caracteres est:"+sl;
+   }
+   
+   function souschaine()
+   {
+     const s = document.getElementById("name").value;
+	 const sl = s.substring(0,3);
+	 document.getElementById("schaine").innerHTML = " Les trois premiers caracteres sont: "+sl;
+   }
+  
+</script>
+
+</body>
+</html>

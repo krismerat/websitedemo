@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Horloge</title>
+
+
+<script> 
+</script>
+</head>
+
+<body onload="output();">
+
+<p> Horloge en temps reel</p>
+
+
+<script>
+      function chargement(){
+             var charge = 1000; 
+             setTimeout('output()',charge)
+         }
+
+
+function output() {
+const dac = new Date();
+document.getElementById("printoutput").value = dac;
+chargement();
+
+}	
+</script>
+ 
+<input id="printoutput" readonly="true" type="text">
+
+
+</body>
+</html>
