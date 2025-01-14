@@ -7,6 +7,10 @@ a
 {
   text-decoration:none;
 }
+a:hover
+{
+  border-bottom: 2px solid black;
+}
 
 h3
 {
@@ -47,6 +51,10 @@ main
 
 
 }
+#accueil
+{
+  width: 80%;
+}
 #apropos
 {
   width: 80%;
@@ -69,7 +77,7 @@ main
   display:flex;
   flex-direction:row;
   justify-content: space-around;
-  background-color: white;
+  background-color: whitesmoke;
   
 
   
@@ -99,7 +107,7 @@ main
   display:flex;
   flex-direction:row;
   justify-content: space-around;
-  background-color: white;
+  background-color: floralwhite;
   
   
 }
@@ -114,6 +122,14 @@ main
 
 }
 
+#formulaire
+{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: rgb(220, 219, 163);
+  align-items: center;
+}
 
 #piedpage
 {
